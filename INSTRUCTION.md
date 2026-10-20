@@ -1,23 +1,7 @@
-# Final Examination Instructions
+# How to Test
 
-Welcome to the Web Development Final Examination. This repository contains the base code for the exam.
-
-## Overview
-
-This project is structured into two main directories:
-
-- `next-backend/`: Next.js application acting as the backend API server.
-- `react-frontend/`: React application built with Vite acting as the frontend user interface.
-
-## Examination Guidelines & Requirements
-
-1. **Implementation Scope**:
-   - You must implement both the Next.js backend (`next-backend/`) and the React frontend (`react-frontend/`).
-   - All areas marked with text/comments like "codes go here" must be fully implemented.
-
-2. **Structure & API Design**:
-   - You must retain the existing project structure and code architecture provided in both applications.
-   - Utilize the existing API routes and structure provided in `next-backend/`. You may add new API endpoints as needed to support your features.
-
-3. **Testing & Documentation**:
-   - Fill in the root `README.md` file with the test credentials (User / Password) and a brief step-by-step description of how to test the application.
+1. Open the frontend link in the README.
+2. Sign in using a test account created by the project’s seed data.
+3. As a student, browse courses and try enrolling in a course.
+4. As a teacher, open course management and try adding or editing a course.
+5. Sign out and sign in with the other role to check its permissions.
